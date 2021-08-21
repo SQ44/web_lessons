@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and media</title>
+</head>
+
+<body>
+    <!--<h1>Audio, Video and Forms </h1>
+    <audio controls="controls" src="audio.mp3">
+        Your Browser doesnt support the audio file format
+    </audio>
+    <br/>
+    <a href="audio.mp3">click here to play</a>
+
+    <video controls="controls">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.ogv" type="video/ogg">
+        Your Browser is not supported
+    </video>
+-->
+    <h1>HTML FORMS</h1>
+    <form action="">
+        <label for="username">
+            Username: <input type="text" id="username">
+        </label>
+        <label for="password">
+            Password: <input type="password" id="password">
+        </label>
+
+        <!--radio buttons-->
+        <h3>What is your gender?</h3>
+        <p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </p>
+        <!--Checkboxes-->
+        <div>
+            <h3>What are your favourite sports activities?</h3>
+            <input type="checkbox" name="sports" id="soccer">
+            <label for="soccer">Soccer</label>
+            <input type="checkbox" name="sports" id="netball">
+            <label for="netball">Netball</label>
+            <input type="checkbox" name="sports" id="volleyball" checked>
+            <label for="volleyball">Volleyball</label>
+        </div>
+
+        <!--Upload content-->
+        <div>
+            <fieldset>
+                <legend>
+                    <h3>Upload your file</h3>
+                </legend>
+                <label for="file-select"></label>
+                <input type="file" name="upload" id="file-select">
+            </fieldset>
+
+        </div>
+
+        <!--Text area-->
+        <div>
+            <fieldset>
+                <legend><label for="label-address">Adress:</label></legend>
+                <textarea name="address" id="label-address" cols="30" rows="10"></textarea>
+            </fieldset>
+            
+            
+        </div>
+
+        <!--Select Boxes-->
+        <div>
+            <label for="provinces">Select province</label>
+            <select name="provinces" id="provinces">
+                <option>Select province</option>
+                <option value="Lusaka">Lusaka</option>
+                <option value="Central">Central</option>
+                <option value="Southern" selected>Southern</option>
+                <option value="Northern">Northern</option>
+            </select>
+        </div>
+        <!--these are other html 5 types added which might work in some browsers-->
+        <h3>Html5 form types </h3>
+        <input type="email">
+        <p>
+            <label for="birthday">Birthday:</label>
+            <input type="date" value="2012-02-02" id="birthday">
+        </p>
+        <input type="number" min="1" max="7" step="1">
+        <p><input type="submit" value="Submit"></p>
+
+
+
+    </form>
+    <!--for more information visit tutorialrepublic.com/html-tutorial-->
+    <iframe src="index.html" frameborder="2" width="100%" height="200"></iframe>
+</body>
+
+</html>

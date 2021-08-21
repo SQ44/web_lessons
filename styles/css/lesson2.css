@@ -1,0 +1,33 @@
+/*body{
+    background-color: aquamarine;
+}*/
+
+*{
+    margin: 5px;
+    padding: 10px;
+}
+
+/*an example of an element selector*/
+p {
+    color: blue;
+}
+
+#warning{
+    color: red;
+}
+
+.heading{
+    color:aqua;
+}
+
+/*descendant styles*/
+
+ li{
+    display: inline;
+    background-color: blanchedalmond;
+}
+
+ul.navbar li a{
+    margin: 10px;
+    text-decoration: none;
+}
