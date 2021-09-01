@@ -22,12 +22,12 @@ p {
 
 /*descendant styles*/
 
-ul.navbar li{
+ li{
     display: inline;
     background-color: blanchedalmond;
 }
 
- a{
+ul.navbar li a{
     margin: 10px;
     text-decoration: none;
 }

@@ -1,0 +1,42 @@
+/*Grouping selector*/
+h1,h2,h3{
+    color:rgb(7, 84, 104);
+
+}
+
+h1{
+    font-size: 25px;
+    
+}
+h2{
+    font-size: 20px;
+    
+}
+h3{
+    font-size: 15px;
+    
+}
+
+
+
+
+
+ul > li {
+    list-style: square;
+}
+
+ul > li ol{
+    list-style: square;
+}
+
+h2 + p{
+    color: rgb(63, 218, 16);
+}
+
+
+/*general sibling selector selects all paragraphs 
+after the unordered list with a class of task
+*/
+ul.task ~ p{
+    color: rgb(14, 189, 180);
+}
