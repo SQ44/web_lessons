@@ -1,0 +1,34 @@
+body {
+    color: #ff5722;/*rrggbb*/
+    
+
+    background: blue url("../img/bird.jpg") no-repeat fixed 100% 0%;
+}
+h2{
+    color: #345555;
+    font-size: 30px
+}
+/*another way to pass the value of color*/
+#ex-1{
+    color: violet;
+}
+
+#ex-2{
+    color: rgb(255, 0, 100);
+}
+
+#ex-3{
+    color: rgb(100%, 80%, 0%);
+}
+
+p.ex-4 {
+    color: blue;
+    border: 2px solid;
+    border-color: burlywood;
+}
+/*Background styling*/
+.ex-5 {
+    background-color: #f0e68c;
+
+}
+
