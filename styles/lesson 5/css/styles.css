@@ -1,0 +1,8 @@
+#center-horizontal{
+    text-align: center;
+}
+
+#justify-horizontal{
+    width: 50%;
+    text-align: right;/* change the value right to left or justify*/
+}
